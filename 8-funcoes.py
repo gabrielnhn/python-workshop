@@ -1,3 +1,3 @@
-def algum_eh_par(x, y):
+def eh_par(x):
+    return x % 2
 
-    return (x % 2 == 0) or (y % 2 == 0)

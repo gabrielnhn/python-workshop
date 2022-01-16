@@ -1,2 +1,2 @@
-l = set(range(30))
+l = list(range(30))
 print(l)

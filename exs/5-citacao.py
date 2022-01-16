@@ -4,12 +4,11 @@ nomes =  ["Guido van Rossum", "Linus Benedict Torvalds", "Arthur Dent", "Ford Pr
 # Por exemplo:
 #  "Gabriel Nascarella Hishida" vira "HISHIDA, G. N."
 
-
 for nome in nomes:
-    print(nome.split()[-1].upper(), end=', ')    
 
-    for subnome in nome.split()[:-1]:
-        print(subnome[0], end=". ")
-    
-    print("")
+    resultado = nome.split()[-1].upper()
+    subnomes = nome.split()
+    for subnome in subnomes[:-1]:
+        resultado += " " + subnome[0]
 
+    print(resultado)

@@ -7,11 +7,3 @@ horarios = [("Allan Cedric", 2), ("Eduardo João", 2), ("Artur Coelho", 2),
 # que contem duplas (membro, horas),
 # e pode ou nao ter nomes repetidos,
 # imprima a quantidade de horas que cada membro ficou na bancada.
-
-horas_trabalhadas = {}
-
-for pessoa, horas in horarios:
-    horas_trabalhadas[pessoa] = horas_trabalhadas.get(pessoa, 0) + horas 
-
-for pessoa, horas in horas_trabalhadas.items():
-    print(f"{pessoa}: {horas}")

@@ -21,4 +21,19 @@ class Aluno:
         return f"{self.nome}, grr{self.grr}, ira: {self.IRA()}"
 
 
-pi = 3.14
+
+aluno = Aluno("Alexandre", "20181962", 8, "Engenharia Mecânica")
+
+outro_aluno = Aluno("Gabriel", "20190261", 6, "BCC")
+
+outro_aluno.recebe_nota(100)
+
+# aluno.recebe_nota(7)
+# aluno.recebe_nota(0)
+# aluno.recebe_nota(10)
+
+# print(f"IRA: {aluno.IRA()}")
+# print(f"IRA: {outro_aluno.IRA()}")
+
+
+# print(aluno)

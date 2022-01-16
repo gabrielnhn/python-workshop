@@ -47,3 +47,4 @@ with open("./lucro.csv", "w", newline='') as file:
 
     for data, valor in lucros.items():
         writer.writerow((data, valor))
+

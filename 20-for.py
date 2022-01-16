@@ -1,8 +1,9 @@
 alunos = ["João", "Guilherme", "Tiago", "Vinicius", "Ian"]
-aprovados = ["João", "Tiago", "Vinicius"]
+notas = [0, 100, 90, 80, 70,]
 
 for aluno in alunos:
-#     print(f"{aluno} está matriculado.")
-    pass
-
-a = 3
+    print(aluno + " é aluno", end=" ")
+    if aluno in aprovados:
+        print("aprovado")
+    else:
+        print("reprovado")

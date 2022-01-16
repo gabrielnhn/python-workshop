@@ -1,17 +1,17 @@
-andre = 20
+idade = eval(input())
 
 
-if (andre < 20):
-    print("Andre é jovem")
+if (idade < 12):
+    print("é jovem")
     vacinado = False
 
-elif (andre < 60):
-    print("Andre é adulto")
+elif (idade < 60):
+    print("é adulto")
     vacinado = True
 
 else:
-    print("Andre é idoso")
+    print(" é idoso")
     vacinado = True
 
 if vacinado:
-    print("Andre foi vacinado")
+    print(" foi vacinado")
